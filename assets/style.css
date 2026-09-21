@@ -1,0 +1,38 @@
+
+:root{
+  --pink:#ec4899; --red:#e11d48; --violet:#7c3aed; --ink:#3b123b; --muted:#73536f;
+  --bg:#fff1f7; --card:#fff; --border:#f1c9dd; --shadow:0 14px 35px rgba(126,34,82,.12);
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(135deg,#fff1f7,#f5efff);color:var(--ink);line-height:1.55}
+a{color:var(--violet)}
+.topbar{background:linear-gradient(110deg,#e11d48,#7c3aed,#ec4899);color:#fff;padding:28px 5vw}
+.topbar h1{margin:0 0 5px;font-size:clamp(1.8rem,4vw,3rem)}
+.topbar p{margin:4px 0}
+.container{width:min(1180px,92vw);margin:28px auto}
+.nav{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.btn{display:inline-block;border:0;border-radius:14px;padding:11px 18px;background:var(--violet);color:#fff;text-decoration:none;font-weight:700;cursor:pointer}
+.btn.green{background:var(--red)}
+.btn.light{background:#fff;color:var(--violet);border:1px solid #e5b6d0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+.card,.demo{background:var(--card);border:1px solid var(--border);border-radius:22px;padding:24px;box-shadow:var(--shadow)}
+.card h2,.card h3{margin-top:0}
+.badge{display:inline-block;padding:5px 11px;border-radius:999px;background:#fce7f3;color:#be185d;font-weight:700}
+.list{display:grid;gap:12px}
+.list a{background:#fff;border:1px solid var(--border);border-radius:14px;padding:14px 16px;text-decoration:none;box-shadow:0 5px 18px rgba(126,34,82,.07)}
+.list a:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+input,select,textarea,button{font:inherit}
+input,select,textarea{width:100%;padding:10px 12px;border:1px solid #dfb7cf;border-radius:10px;margin:5px 0 12px}
+button{border:0}
+label{font-weight:700}
+.demo{margin-top:18px}
+.result{margin-top:12px;padding:12px;border-radius:10px;background:#fff1f7;min-height:22px}
+table{width:100%;border-collapse:collapse;margin:12px 0}
+th,td{border:1px solid #dfbfd2;padding:9px;text-align:left}
+th{background:#f5e9ff}
+img.media{max-width:100%;border-radius:16px}
+footer{margin-top:35px;padding:25px;text-align:center;color:var(--muted)}
+.code{background:#102030;color:#dff8ff;padding:16px;border-radius:14px;overflow:auto}
+.kpi{font-size:2rem;font-weight:800}
+.chip{display:inline-block;padding:6px 10px;border-radius:999px;background:#f3e8ff;color:#6d28d9;margin:4px}
+@media(max-width:650px){.container{width:94vw}.card,.demo{padding:17px}.nav .btn{width:100%;text-align:center}}

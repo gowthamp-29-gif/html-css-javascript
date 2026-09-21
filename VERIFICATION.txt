@@ -1,0 +1,17 @@
+PROJECT VERIFICATION REPORT
+============================
+Student: P. Gowtham
+Section: 6
+PRN: 250200209
+
+HTML experiment pages: 15
+CSS experiment pages: 270
+JavaScript experiment pages: 247
+Total experiment pages: 532
+Total HTML files including indexes/section shortcuts: 542
+
+Broken relative links: 0
+JavaScript syntax errors checked with Node: 0
+Node.js available: yes
+
+Source note: The uploaded assignment PDF contains 15 HTML items, 270 numbered CSS items (including item 247, "Final SaaS Webpage Projects"), and 247 JavaScript items across its JavaScript sections. The screenshot reference describes the visual design; the uploaded PDF is the content source.
